@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1582054B2D31FD7300530A3B /* readME.md in Resources */ = {isa = PBXBuildFile; fileRef = 1582054A2D31FD6C00530A3B /* readME.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1582052D2D31EB3800530A3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		158205162D31EB3500530A3B /* i-am-rich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "i-am-rich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1582052C2D31EB3800530A3B /* i-am-richTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "i-am-richTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		158205362D31EB3800530A3B /* i-am-richUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "i-am-richUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1582054A2D31FD6C00530A3B /* readME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readME.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		1582050D2D31EB3500530A3B = {
 			isa = PBXGroup;
 			children = (
+				1582054A2D31FD6C00530A3B /* readME.md */,
 				158205182D31EB3500530A3B /* i-am-rich */,
 				1582052F2D31EB3800530A3B /* i-am-richTests */,
 				158205392D31EB3800530A3B /* i-am-richUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1582054B2D31FD7300530A3B /* readME.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
